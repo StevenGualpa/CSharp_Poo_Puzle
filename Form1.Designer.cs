@@ -38,6 +38,7 @@
             dgvRanking = new DataGridView();
             btn_jugar = new Button();
             btnResultado = new Button();
+            Btn_Ranking = new Button();
             ((System.ComponentModel.ISupportInitialize)numupdow_filas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numupdow_columnas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgv_puzlee).BeginInit();
@@ -115,29 +116,40 @@
             // 
             // btn_jugar
             // 
-            btn_jugar.Location = new Point(483, 71);
+            btn_jugar.Location = new Point(451, 97);
             btn_jugar.Name = "btn_jugar";
             btn_jugar.Size = new Size(94, 29);
             btn_jugar.TabIndex = 8;
-            btn_jugar.Text = "button1";
+            btn_jugar.Text = "Jugar";
             btn_jugar.UseVisualStyleBackColor = true;
             btn_jugar.Click += btn_jugar_Click;
             // 
             // btnResultado
             // 
-            btnResultado.Location = new Point(656, 97);
+            btnResultado.Location = new Point(580, 97);
             btnResultado.Name = "btnResultado";
             btnResultado.Size = new Size(94, 29);
             btnResultado.TabIndex = 9;
-            btnResultado.Text = "button1";
+            btnResultado.Text = "Resultado";
             btnResultado.UseVisualStyleBackColor = true;
             btnResultado.Click += btnResultado_Click;
+            // 
+            // Btn_Ranking
+            // 
+            Btn_Ranking.Location = new Point(695, 97);
+            Btn_Ranking.Name = "Btn_Ranking";
+            Btn_Ranking.Size = new Size(94, 29);
+            Btn_Ranking.TabIndex = 10;
+            Btn_Ranking.Text = "Ranking";
+            Btn_Ranking.UseVisualStyleBackColor = true;
+            Btn_Ranking.Click += Btn_Ranking_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(923, 436);
+            Controls.Add(Btn_Ranking);
             Controls.Add(btnResultado);
             Controls.Add(btn_jugar);
             Controls.Add(dgvRanking);
@@ -168,8 +180,9 @@
         private NumericUpDown numupdow_filas;
         private NumericUpDown numupdow_columnas;
         private DataGridView dgv_puzlee;
-        private DataGridView dgvRanking;
         private Button btn_jugar;
         private Button btnResultado;
+        public DataGridView dgvRanking;
+        private Button Btn_Ranking;
     }
 }

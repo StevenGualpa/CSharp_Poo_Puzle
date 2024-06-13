@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+      "projectUniqueName": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
       "projectName": "CSharp_Poo_Puzle",
-      "projectPath": "C:\\Proyectos\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+      "projectPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
       "packagesPath": "C:\\Users\\STEVEN\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\CSharp_Poo_Puzle\\obj\\",
+      "outputPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\STEVEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
