@@ -43,7 +43,8 @@ namespace CSharp_Poo_Puzle
                 string nombreJugador = formNombre.NombreJugador;
                 juego.puntuacion = 0;
                 juego.NombreJugadorActual = nombreJugador;
-                juego.Jugar(Lbl_Puntuacion, numupdow_filas, numupdow_columnas, dgv_puzlee);
+                juego.Jugar(Lbl_Puntuacion, numupdow_filas, numupdow_filas, dgv_puzlee);
+                btnResultado.Visible = true;
             }
         }
 
@@ -68,6 +69,16 @@ namespace CSharp_Poo_Puzle
         private void Btn_Ranking_Click(object sender, EventArgs e)
         {
             juego.MostrarRanking(dgvRanking);
+        }
+
+        private void dgv_puzlee_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

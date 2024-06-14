@@ -36,39 +36,48 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 35);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(31, 32);
             label1.Name = "label1";
-            label1.Size = new Size(134, 20);
+            label1.Size = new Size(127, 17);
             label1.TabIndex = 0;
             label1.Text = "Ingrese su nombre:";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(199, 33);
+            txtNombre.Location = new Point(175, 31);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(125, 27);
+            txtNombre.Size = new Size(143, 23);
             txtNombre.TabIndex = 1;
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(151, 85);
+            btnAceptar.BackColor = Color.Teal;
+            btnAceptar.FlatStyle = FlatStyle.Flat;
+            btnAceptar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAceptar.ForeColor = SystemColors.Window;
+            btnAceptar.Location = new Point(149, 70);
+            btnAceptar.Margin = new Padding(3, 2, 3, 2);
             btnAceptar.Name = "btnAceptar";
-            btnAceptar.Size = new Size(94, 29);
+            btnAceptar.Size = new Size(94, 35);
             btnAceptar.TabIndex = 2;
             btnAceptar.Text = "Aceptar";
-            btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.UseVisualStyleBackColor = false;
             btnAceptar.Click += btnAceptar_Click;
             // 
             // FrmNombre
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(454, 139);
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(397, 116);
             Controls.Add(btnAceptar);
             Controls.Add(txtNombre);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmNombre";
-            Text = "FrmNombre";
+            Text = "Ingresar nombre";
             Load += FrmNombre_Load;
             ResumeLayout(false);
             PerformLayout();

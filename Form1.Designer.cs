@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             label1 = new Label();
-            label2 = new Label();
             label3 = new Label();
             Lbl_Puntuacion = new Label();
             numupdow_filas = new NumericUpDown();
-            numupdow_columnas = new NumericUpDown();
             dgv_puzlee = new DataGridView();
             dgvRanking = new DataGridView();
             btn_jugar = new Button();
             btnResultado = new Button();
             Btn_Ranking = new Button();
             ((System.ComponentModel.ISupportInitialize)numupdow_filas).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numupdow_columnas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgv_puzlee).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvRanking).BeginInit();
             SuspendLayout();
@@ -48,123 +47,159 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(45, 9);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(42, 20);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(61, 17);
             label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(307, 2);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
+            label1.Text = "Tamaño:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(559, 29);
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(409, 20);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(82, 17);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Puntuacion:";
+            label3.Click += label3_Click;
             // 
             // Lbl_Puntuacion
             // 
             Lbl_Puntuacion.AutoSize = true;
-            Lbl_Puntuacion.Location = new Point(656, 49);
+            Lbl_Puntuacion.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Lbl_Puntuacion.Location = new Point(502, 20);
             Lbl_Puntuacion.Name = "Lbl_Puntuacion";
-            Lbl_Puntuacion.Size = new Size(50, 20);
+            Lbl_Puntuacion.Size = new Size(12, 17);
             Lbl_Puntuacion.TabIndex = 3;
-            Lbl_Puntuacion.Text = "label4";
+            Lbl_Puntuacion.Text = " ";
             // 
             // numupdow_filas
             // 
-            numupdow_filas.Location = new Point(142, 2);
+            numupdow_filas.Location = new Point(109, 20);
+            numupdow_filas.Margin = new Padding(3, 2, 3, 2);
+            numupdow_filas.Maximum = new decimal(new int[] { 5, 0, 0, 0 });
+            numupdow_filas.Minimum = new decimal(new int[] { 3, 0, 0, 0 });
             numupdow_filas.Name = "numupdow_filas";
-            numupdow_filas.Size = new Size(150, 27);
+            numupdow_filas.ReadOnly = true;
+            numupdow_filas.Size = new Size(75, 23);
             numupdow_filas.TabIndex = 4;
-            // 
-            // numupdow_columnas
-            // 
-            numupdow_columnas.Location = new Point(380, 0);
-            numupdow_columnas.Name = "numupdow_columnas";
-            numupdow_columnas.Size = new Size(150, 27);
-            numupdow_columnas.TabIndex = 5;
+            numupdow_filas.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
             // dgv_puzlee
             // 
+            dgv_puzlee.BackgroundColor = Color.WhiteSmoke;
+            dgv_puzlee.BorderStyle = BorderStyle.None;
             dgv_puzlee.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_puzlee.Location = new Point(32, 113);
+            dgv_puzlee.Location = new Point(42, 81);
+            dgv_puzlee.Margin = new Padding(3, 2, 3, 2);
             dgv_puzlee.Name = "dgv_puzlee";
             dgv_puzlee.RowHeadersWidth = 51;
-            dgv_puzlee.Size = new Size(300, 188);
+            dgv_puzlee.Size = new Size(262, 141);
             dgv_puzlee.TabIndex = 6;
+            dgv_puzlee.CellContentClick += dgv_puzlee_CellContentClick;
             dgv_puzlee.KeyDown += dgv_puzlee_KeyDown;
             // 
             // dgvRanking
             // 
+            dgvRanking.BackgroundColor = Color.WhiteSmoke;
+            dgvRanking.BorderStyle = BorderStyle.None;
+            dgvRanking.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = Color.Teal;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvRanking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvRanking.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRanking.Location = new Point(451, 160);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dgvRanking.DefaultCellStyle = dataGridViewCellStyle2;
+            dgvRanking.EnableHeadersVisualStyles = false;
+            dgvRanking.GridColor = Color.Teal;
+            dgvRanking.Location = new Point(415, 120);
+            dgvRanking.Margin = new Padding(3, 2, 3, 2);
             dgvRanking.Name = "dgvRanking";
+            dgvRanking.ReadOnly = true;
+            dgvRanking.RowHeadersVisible = false;
             dgvRanking.RowHeadersWidth = 51;
-            dgvRanking.Size = new Size(300, 188);
+            dgvRanking.Size = new Size(264, 187);
             dgvRanking.TabIndex = 7;
             // 
             // btn_jugar
             // 
-            btn_jugar.Location = new Point(451, 97);
+            btn_jugar.BackColor = Color.Teal;
+            btn_jugar.FlatStyle = FlatStyle.Flat;
+            btn_jugar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_jugar.ForeColor = SystemColors.Window;
+            btn_jugar.Location = new Point(409, 68);
+            btn_jugar.Margin = new Padding(3, 2, 3, 2);
             btn_jugar.Name = "btn_jugar";
-            btn_jugar.Size = new Size(94, 29);
+            btn_jugar.Size = new Size(92, 32);
             btn_jugar.TabIndex = 8;
             btn_jugar.Text = "Jugar";
-            btn_jugar.UseVisualStyleBackColor = true;
+            btn_jugar.UseVisualStyleBackColor = false;
             btn_jugar.Click += btn_jugar_Click;
             // 
             // btnResultado
             // 
-            btnResultado.Location = new Point(580, 97);
+            btnResultado.BackColor = Color.Teal;
+            btnResultado.FlatStyle = FlatStyle.Flat;
+            btnResultado.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnResultado.ForeColor = SystemColors.Window;
+            btnResultado.Location = new Point(508, 68);
+            btnResultado.Margin = new Padding(3, 2, 3, 2);
             btnResultado.Name = "btnResultado";
-            btnResultado.Size = new Size(94, 29);
+            btnResultado.Size = new Size(92, 32);
             btnResultado.TabIndex = 9;
-            btnResultado.Text = "Resultado";
-            btnResultado.UseVisualStyleBackColor = true;
+            btnResultado.Text = "Solucion";
+            btnResultado.UseVisualStyleBackColor = false;
+            btnResultado.Visible = false;
             btnResultado.Click += btnResultado_Click;
             // 
             // Btn_Ranking
             // 
-            Btn_Ranking.Location = new Point(695, 97);
+            Btn_Ranking.BackColor = Color.Teal;
+            Btn_Ranking.FlatStyle = FlatStyle.Flat;
+            Btn_Ranking.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Btn_Ranking.ForeColor = SystemColors.Window;
+            Btn_Ranking.Location = new Point(609, 68);
+            Btn_Ranking.Margin = new Padding(3, 2, 3, 2);
             Btn_Ranking.Name = "Btn_Ranking";
-            Btn_Ranking.Size = new Size(94, 29);
+            Btn_Ranking.Size = new Size(92, 32);
             Btn_Ranking.TabIndex = 10;
             Btn_Ranking.Text = "Ranking";
-            Btn_Ranking.UseVisualStyleBackColor = true;
+            Btn_Ranking.UseVisualStyleBackColor = false;
             Btn_Ranking.Click += Btn_Ranking_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(923, 436);
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(808, 327);
             Controls.Add(Btn_Ranking);
             Controls.Add(btnResultado);
             Controls.Add(btn_jugar);
             Controls.Add(dgvRanking);
             Controls.Add(dgv_puzlee);
-            Controls.Add(numupdow_columnas);
             Controls.Add(numupdow_filas);
             Controls.Add(Lbl_Puntuacion);
             Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Puzle";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numupdow_filas).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numupdow_columnas).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgv_puzlee).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvRanking).EndInit();
             ResumeLayout(false);
@@ -174,11 +209,9 @@
         #endregion
 
         private Label label1;
-        private Label label2;
         private Label label3;
         private Label Lbl_Puntuacion;
         private NumericUpDown numupdow_filas;
-        private NumericUpDown numupdow_columnas;
         private DataGridView dgv_puzlee;
         private Button btn_jugar;
         private Button btnResultado;
