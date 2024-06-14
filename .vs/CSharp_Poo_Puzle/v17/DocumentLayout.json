@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmNombre.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\FrmNombre.cs",
               "RelativeDocumentMoniker": "FrmNombre.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -78,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JuegoPuzzle.cs",
               "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
               "RelativeDocumentMoniker": "JuegoPuzzle.cs",
               "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
               "RelativeToolTip": "JuegoPuzzle.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAgwJEAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCgBAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T05:26:53.721Z",
               "EditorCaption": ""
@@ -103,15 +103,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAlwCEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T05:02:31.241Z"
+              "WhenOpened": "2024-06-13T05:02:31.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
