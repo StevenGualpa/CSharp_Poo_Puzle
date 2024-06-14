@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\",
+  "WorkspaceRootPath": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\juegopuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:juegopuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\gestordearchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:frmnombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\juegopuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:juegopuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\gestordearchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:gestordearchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\proyectos\\c#\\csharp_poo_puzle\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|c:\\users\\kdrag\\onedrive\\documentos\\github\\csharp_poo_puzle\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDE6BA4F-9F72-4FA3-97CD-82C1DC6A74F1}|CSharp_Poo_Puzle.csproj|solutionrelative:jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,15 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FrmNombre.cs",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\FrmNombre.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\FrmNombre.cs",
               "RelativeDocumentMoniker": "FrmNombre.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\FrmNombre.cs",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\FrmNombre.cs",
               "RelativeToolTip": "FrmNombre.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,47 +55,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FrmNombre.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\FrmNombre.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\FrmNombre.cs",
               "RelativeDocumentMoniker": "FrmNombre.cs",
               "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\FrmNombre.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\FrmNombre.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmNombre.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T05:50:14.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T05:27:36.302Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JuegoPuzzle.cs",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
               "RelativeDocumentMoniker": "JuegoPuzzle.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\JuegoPuzzle.cs",
               "RelativeToolTip": "JuegoPuzzle.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwCgBAAARAAAA",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAswE0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T05:26:53.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T05:26:53.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "GestorDeArchivos.cs",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\GestorDeArchivos.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\GestorDeArchivos.cs",
               "RelativeDocumentMoniker": "GestorDeArchivos.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\GestorDeArchivos.cs",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\GestorDeArchivos.cs",
               "RelativeToolTip": "GestorDeArchivos.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,24 +102,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Form1.cs",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAlwCEAAAANAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T05:02:31.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T05:02:31.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Jugador.cs",
-              "DocumentMoniker": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Jugador.cs",
               "RelativeDocumentMoniker": "Jugador.cs",
-              "ToolTip": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\Jugador.cs",
+              "ToolTip": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\Jugador.cs",
               "RelativeToolTip": "Jugador.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

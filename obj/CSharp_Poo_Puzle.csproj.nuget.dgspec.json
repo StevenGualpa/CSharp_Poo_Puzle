@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {}
+    "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {
+    "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+        "projectUniqueName": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
         "projectName": "CSharp_Poo_Puzle",
-        "projectPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
-        "packagesPath": "C:\\Users\\STEVEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\C#\\CSharp_Poo_Puzle\\obj\\",
+        "projectPath": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+        "packagesPath": "C:\\Users\\kdrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\STEVEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kdrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
