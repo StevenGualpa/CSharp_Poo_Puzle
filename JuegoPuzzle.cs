@@ -110,53 +110,40 @@ namespace CSharp_Poo_Puzle
             Random aleto = new Random();
             int[] res_vec = new int[num_fila * num_columnas];
             int n = 0;
+
             // Matriz a Vector
             for (int i = 0; i < num_fila; i++)
             {
                 for (int j = 0; j < num_columnas; j++)
                 {
-                    res_vec[n] = Trozos[i, j];
-                    n++;
+                    res_vec[n++] = Trozos[i, j];
                 }
             }
-            // Vector Aleatorio
-            int ultimo = res_vec[res_vec.Length - 1];
-            int[] vec_ale = new int[num_fila * num_columnas];
-            n = 0;
-            int ele = 0;
-            int banderita = 0;
-            while (n < res_vec.Length - 1)
+
+            // Fisher-Yates shuffle
+            for (int i = res_vec.Length - 2; i > 0; i--) // Ignore the last element which should be the blank
             {
-                banderita = 0;
-                ele = aleto.Next(0, vec_ale.Length - 1);
-                vec_ale[n] = res_vec[ele];
-                for (int k = 0; k <= n; k++)
-                {
-                    if (vec_ale[n] == vec_ale[k])
-                    {
-                        banderita++;
-                    }
-                }
-                if (banderita > 1)
-                {
-                    n--;
-                }
-                else
-                {
-                    n++;
-                }
+                int j = aleto.Next(0, i + 1);
+                int temp = res_vec[i];
+                res_vec[i] = res_vec[j];
+                res_vec[j] = temp;
             }
+
+            // Ensure the last element is blank
+            int ultimo = res_vec.Length - 1;
+            res_vec[ultimo] = -1;
+
+            // Vector to Matriz
             n = 0;
-            vec_ale[res_vec.Length - 1] = ultimo; // Último elemento en Blanco
             for (int i = 0; i < num_fila; i++)
             {
                 for (int j = 0; j < num_columnas; j++)
                 {
-                    Aletorio[i, j] = vec_ale[n];
-                    n++;
+                    Aletorio[i, j] = res_vec[n++];
                 }
             }
         }
+
         //Procedimiento Para Mostrar Puzlee
         public void Mostrar_Puzlee(DataGridView dgv_puzlee)
         {

@@ -48,9 +48,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(42, 20);
+            label1.Location = new Point(48, 27);
             label1.Name = "label1";
-            label1.Size = new Size(61, 17);
+            label1.Size = new Size(78, 23);
             label1.TabIndex = 0;
             label1.Text = "Tamaño:";
             // 
@@ -58,9 +58,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(409, 20);
+            label3.Location = new Point(617, 27);
             label3.Name = "label3";
-            label3.Size = new Size(82, 17);
+            label3.Size = new Size(104, 23);
             label3.TabIndex = 2;
             label3.Text = "Puntuacion:";
             label3.Click += label3_Click;
@@ -69,21 +69,20 @@
             // 
             Lbl_Puntuacion.AutoSize = true;
             Lbl_Puntuacion.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Lbl_Puntuacion.Location = new Point(502, 20);
+            Lbl_Puntuacion.Location = new Point(724, 27);
             Lbl_Puntuacion.Name = "Lbl_Puntuacion";
-            Lbl_Puntuacion.Size = new Size(12, 17);
+            Lbl_Puntuacion.Size = new Size(15, 23);
             Lbl_Puntuacion.TabIndex = 3;
             Lbl_Puntuacion.Text = " ";
             // 
             // numupdow_filas
             // 
-            numupdow_filas.Location = new Point(109, 20);
-            numupdow_filas.Margin = new Padding(3, 2, 3, 2);
-            numupdow_filas.Maximum = new decimal(new int[] { 5, 0, 0, 0 });
+            numupdow_filas.Location = new Point(125, 27);
+            numupdow_filas.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             numupdow_filas.Minimum = new decimal(new int[] { 3, 0, 0, 0 });
             numupdow_filas.Name = "numupdow_filas";
             numupdow_filas.ReadOnly = true;
-            numupdow_filas.Size = new Size(75, 23);
+            numupdow_filas.Size = new Size(86, 27);
             numupdow_filas.TabIndex = 4;
             numupdow_filas.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
@@ -92,11 +91,10 @@
             dgv_puzlee.BackgroundColor = Color.WhiteSmoke;
             dgv_puzlee.BorderStyle = BorderStyle.None;
             dgv_puzlee.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_puzlee.Location = new Point(42, 81);
-            dgv_puzlee.Margin = new Padding(3, 2, 3, 2);
+            dgv_puzlee.Location = new Point(48, 108);
             dgv_puzlee.Name = "dgv_puzlee";
             dgv_puzlee.RowHeadersWidth = 51;
-            dgv_puzlee.Size = new Size(262, 141);
+            dgv_puzlee.Size = new Size(299, 188);
             dgv_puzlee.TabIndex = 6;
             dgv_puzlee.CellContentClick += dgv_puzlee_CellContentClick;
             dgv_puzlee.KeyDown += dgv_puzlee_KeyDown;
@@ -125,13 +123,12 @@
             dgvRanking.DefaultCellStyle = dataGridViewCellStyle2;
             dgvRanking.EnableHeadersVisualStyles = false;
             dgvRanking.GridColor = Color.Teal;
-            dgvRanking.Location = new Point(415, 120);
-            dgvRanking.Margin = new Padding(3, 2, 3, 2);
+            dgvRanking.Location = new Point(624, 160);
             dgvRanking.Name = "dgvRanking";
             dgvRanking.ReadOnly = true;
             dgvRanking.RowHeadersVisible = false;
             dgvRanking.RowHeadersWidth = 51;
-            dgvRanking.Size = new Size(264, 187);
+            dgvRanking.Size = new Size(302, 249);
             dgvRanking.TabIndex = 7;
             // 
             // btn_jugar
@@ -140,10 +137,9 @@
             btn_jugar.FlatStyle = FlatStyle.Flat;
             btn_jugar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_jugar.ForeColor = SystemColors.Window;
-            btn_jugar.Location = new Point(409, 68);
-            btn_jugar.Margin = new Padding(3, 2, 3, 2);
+            btn_jugar.Location = new Point(617, 91);
             btn_jugar.Name = "btn_jugar";
-            btn_jugar.Size = new Size(92, 32);
+            btn_jugar.Size = new Size(105, 43);
             btn_jugar.TabIndex = 8;
             btn_jugar.Text = "Jugar";
             btn_jugar.UseVisualStyleBackColor = false;
@@ -155,10 +151,9 @@
             btnResultado.FlatStyle = FlatStyle.Flat;
             btnResultado.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnResultado.ForeColor = SystemColors.Window;
-            btnResultado.Location = new Point(508, 68);
-            btnResultado.Margin = new Padding(3, 2, 3, 2);
+            btnResultado.Location = new Point(731, 91);
             btnResultado.Name = "btnResultado";
-            btnResultado.Size = new Size(92, 32);
+            btnResultado.Size = new Size(105, 43);
             btnResultado.TabIndex = 9;
             btnResultado.Text = "Solucion";
             btnResultado.UseVisualStyleBackColor = false;
@@ -171,10 +166,9 @@
             Btn_Ranking.FlatStyle = FlatStyle.Flat;
             Btn_Ranking.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Btn_Ranking.ForeColor = SystemColors.Window;
-            Btn_Ranking.Location = new Point(609, 68);
-            Btn_Ranking.Margin = new Padding(3, 2, 3, 2);
+            Btn_Ranking.Location = new Point(846, 91);
             Btn_Ranking.Name = "Btn_Ranking";
-            Btn_Ranking.Size = new Size(92, 32);
+            Btn_Ranking.Size = new Size(105, 43);
             Btn_Ranking.TabIndex = 10;
             Btn_Ranking.Text = "Ranking";
             Btn_Ranking.UseVisualStyleBackColor = false;
@@ -182,10 +176,10 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(808, 327);
+            ClientSize = new Size(1146, 539);
             Controls.Add(Btn_Ranking);
             Controls.Add(btnResultado);
             Controls.Add(btn_jugar);
@@ -195,7 +189,6 @@
             Controls.Add(Lbl_Puntuacion);
             Controls.Add(label3);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Puzle";
             Load += Form1_Load;

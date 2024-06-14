@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharp_Poo_Puzle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c0defe3120b67490b9242648b90d459dc61e670")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5f2eb8b42c84562815ef0cd463741c32524a6ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharp_Poo_Puzle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharp_Poo_Puzle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
