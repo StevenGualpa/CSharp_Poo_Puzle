@@ -41,6 +41,10 @@ namespace CSharp_Poo_Puzle
                 dt.Rows.Add(row);
             }
 
+            //Ordenar la puntuacion de mejor a peor
+            dt.DefaultView.Sort = "Puntuacion ASC";
+            dt = dt.DefaultView.ToTable();
+
             // Configurar el DataGridView para mostrar el DataTable
             dgvRanking.DataSource = dt;
 

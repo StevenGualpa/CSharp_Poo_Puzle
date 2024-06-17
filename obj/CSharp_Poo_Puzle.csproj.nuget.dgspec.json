@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {}
+    "C:\\Users\\SrJordy\\Documents\\herramientas de programacin\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {
+    "C:\\Users\\SrJordy\\Documents\\herramientas de programacin\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+        "projectUniqueName": "C:\\Users\\SrJordy\\Documents\\herramientas de programacin\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
         "projectName": "CSharp_Poo_Puzle",
-        "projectPath": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
-        "packagesPath": "C:\\Users\\kdrag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kdrag\\OneDrive\\Documentos\\GitHub\\CSharp_Poo_Puzle\\obj\\",
+        "projectPath": "C:\\Users\\SrJordy\\Documents\\herramientas de programacin\\CSharp_Poo_Puzle\\CSharp_Poo_Puzle.csproj",
+        "packagesPath": "C:\\Users\\SrJordy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SrJordy\\Documents\\herramientas de programacin\\CSharp_Poo_Puzle\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kdrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SrJordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

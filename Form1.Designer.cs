@@ -80,13 +80,14 @@
             // 
             numupdow_filas.Location = new Point(109, 20);
             numupdow_filas.Margin = new Padding(3, 2, 3, 2);
-            numupdow_filas.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
+            numupdow_filas.Maximum = new decimal(new int[] { 7, 0, 0, 0 });
             numupdow_filas.Minimum = new decimal(new int[] { 4, 0, 0, 0 });
             numupdow_filas.Name = "numupdow_filas";
             numupdow_filas.ReadOnly = true;
             numupdow_filas.Size = new Size(75, 23);
             numupdow_filas.TabIndex = 4;
             numupdow_filas.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            numupdow_filas.ValueChanged += numupdow_filas_ValueChanged;
             // 
             // dgv_puzlee
             // 
@@ -195,7 +196,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(1003, 404);
+            ClientSize = new Size(1003, 524);
             Controls.Add(Btn_Ranking);
             Controls.Add(btnResultado);
             Controls.Add(btn_jugar);
